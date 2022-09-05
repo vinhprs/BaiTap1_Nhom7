@@ -10,6 +10,10 @@
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.8.1</version>
         <configuration>
+        <appName>nhom7bai1</appName>
+        <processTypes>
+     <web>java $JAVA_OPTS -cp target/classes:target/dependency/* Main</web>
+  </processTypes>
           <release>16</release>
         </configuration>
       </plugin>
